@@ -12,25 +12,19 @@ class App extends Component {
 
         <Route exact path='/'
           render={() =>
-            
               <HomePage />
-            
           }
         />
 
         <Route exact path='/Interiors'
           render={() =>
-
             <Interiors />
-
           }
         />
 
         <Route exact path='/Exteriors'
           render={() =>
-
             <Exteriors />
-
           }
         />
         
