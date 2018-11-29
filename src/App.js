@@ -3,6 +3,7 @@ import './App.css';
 import HomePage from './Components/HomePage/HomePage.js';
 import Exteriors from './Components/Exteriors/Exteriors.js';
 import Interiors from './Components/Interiors/Interiors.js';
+import TabBar from './Components/TabBar/TabBar.js';
 import { Route } from 'react-router';
 
 class App extends Component {
@@ -25,6 +26,12 @@ class App extends Component {
         <Route exact path='/Exteriors'
           render={() =>
             <Exteriors />
+          }
+        />
+
+        <Route path='/'
+          render={() =>
+            <TabBar />
           }
         />
         
