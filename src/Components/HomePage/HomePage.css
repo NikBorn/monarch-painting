@@ -1,0 +1,23 @@
+.home-hero-image {
+  background: url('../../Images/yellowbluedoor.png');
+  width: 100vw;
+  height: 76vh;
+  background-size: cover;
+  background-position: center top;
+  color: white;
+  background-repeat: no-repeat;
+  /* padding-top: 39vh; */
+}
+
+.trans-background {
+  background-color: #00000090;
+  width: 100vw;
+  /* margin-left: 20vw; */
+  padding-bottom: 20px;
+  max-height: 37vh;
+  overflow: scroll;
+}
+
+.trans-background p {
+  font-size: 13px;
+}

@@ -1,32 +1,65 @@
 .App {
   text-align: center;
+  display: grid;
+  grid-template-rows: 92vh 8vh;
+  grid-template-columns: 100vw;
+  max-height: 100vh;
+  font-family: 'Noto Sans JP', sans-serif;
+  background-color: #f8f8f8;
+  color: #141414;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+p {
+  text-align: left;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+p:last-of-type {
+  margin-bottom: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+h1, h2, h3, h4, h5, h6, p {
+  max-width: 76%;
+  margin: 0 auto 10px auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1 {
+  font-size: 20px;
+  margin: 6px auto;
 }
+
+h2 {
+  font-size: 18px;
+}
+
+h4 {
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: square inside url('./Images/paint-brush-16.png');
+  text-align: left;
+  padding: 2px 0;
+  max-width: 76%;
+  margin: 0 auto;
+}
+
+.main-container {
+  display: block;
+  height: 92vh;
+  overflow-y: scroll;
+   -webkit-overflow-scrolling: touch;
+}
+
+.process-image {
+  width: 100vw;
+  margin: 40px 0;
+  height: 60vw;
+  background: url('./Images/bluehouse.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
