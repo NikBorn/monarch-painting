@@ -1,0 +1,25 @@
+.contact-button {
+  background-color: #f8f8f8;
+  display: block;
+  padding: 20px;
+  width: 40vw;
+  border-radius: 5px;
+  margin: 0 auto;
+  color: #a7a7a7;
+  border: 1px solid #a7a7a7;
+}
+
+.contact-button:first-of-type {
+  margin-bottom: 20px;
+}
+
+.contact-button:visited {
+  color: #a7a7a7;
+}
+
+.contact-button:hover {
+  font-weight: 700;
+  border: 1px solid #141414;
+  color: #141414;
+}
+

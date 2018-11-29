@@ -1,12 +1,13 @@
 import React from 'react';
+import './Contact.css';
 
 const Contact = () => {
   return (
-    <div>
-      Contact
+    <div className='main-container'>
+      <h2>Contact</h2>
       <p>Please contact us today so we can further explain how we can help you with all of your residential painting and staining needs.</p>
-      <a href='mailto:NikolausRB@gmail.com'>Email Monarch</a>
-      <a href='tel:1-720-883-1603'>Call Monarch</a>
+      <a className='contact-button' href='mailto:NikolausRB@gmail.com'>Email Monarch</a>
+      <a className='contact-button' href='tel:1-720-883-1603'>Call Monarch</a>
     </div>
   )
 };

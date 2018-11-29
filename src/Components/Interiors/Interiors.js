@@ -3,7 +3,7 @@ import './Interiors.css';
 
 const Interiors = () => {
   return (
-    <React.Fragment>
+    <div className='main-container'>
       <h2>Interiors</h2>
       <h4>Monarch painting offers residential interior painting services for the following areas</h4>
       <ul>
@@ -22,7 +22,7 @@ const Interiors = () => {
       </ul>
       <h3>Our Interior Painting Process</h3>
       <h4>how we protect your home and create beautiful results</h4>
-    </React.Fragment>
+    </div>
   )
 };
 
