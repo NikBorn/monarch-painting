@@ -3,7 +3,9 @@ import React from 'react';
 const About = () => {
   return(
     <div className='main-container'>
-      <h2>About</h2>
+      <div className='home-hero-image'>
+
+      </div>
       <h3>Company Vision</h3>
       <p>
         Our vision is to delight our customers by revitalizing and beautifying their homes with a level of service and quality that sets the standard for the painting industry.We are incredibly professional, well - managed and easy to do business with.We reliably deliver excellent quality and stand by our work – the job’s not done until you’re satisfied, and we strive to get it right the first time, every time.We aspire to be our best as a company, a team, and members of the community.
