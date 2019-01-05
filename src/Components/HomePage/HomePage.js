@@ -4,7 +4,8 @@ import './HomePage.css'
 const HomePage = () => {
   return (
     <div className='main-container'>
-          <h1>MONARCH PAINTING</h1>
+      <div className='monarch-logo'></div>
+          {/* <h1>MONARCH PAINTING</h1> */}
       <div className='home-hero-image'>
 
       </div>

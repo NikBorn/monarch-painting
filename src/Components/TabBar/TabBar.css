@@ -21,8 +21,8 @@
 }
 
 .tab:hover {
-  color: #141414;
+  color: #F4832B;
   /* border-bottom: 2px solid #141414; */
-  border-top-color: #141414;
+  border-top-color: #F4832B;
   font-weight: 700;
 }

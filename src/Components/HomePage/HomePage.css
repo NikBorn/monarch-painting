@@ -1,5 +1,5 @@
 .home-hero-image {
-  background: url('../../Images/yellowbluedoor.png');
+  background: url('../../Images/IMG-6100.JPG');
   /* width: 100vw;
   height: 76vh; */
   background-size: cover;
@@ -9,7 +9,23 @@
   /* padding-top: 39vh; */
   width: 100vw;
   /* margin: 40px 0; */
-  height: 60vw;
+  height: 34vh;
+  margin: 0 auto;
+}
+
+.monarch-logo {
+    background: url('../../Images/monarch_painting-color.png');
+  /* width: 100vw;
+  height: 76vh; */
+  background-size: contain;
+  background-position: center top;
+  color: white;
+  background-repeat: no-repeat;
+  /* padding-top: 39vh; */
+  width: 100vw;
+  /* margin: 40px 0; */
+  height: 30vh;
+  margin: 0 auto;
 }
 
 .trans-background {

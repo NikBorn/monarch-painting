@@ -9,8 +9,8 @@ const Contact = () => {
       </div>
       <h2>Contact</h2>
       <p>Please contact us today so we can further explain how we can help you with all of your residential painting and staining needs.</p>
-      <a className='contact-button' href='mailto:NikolausRB@gmail.com'>Email Monarch</a>
-      <a className='contact-button' href='tel:1-720-883-1603'>Call Monarch</a>
+      <a className='contact-button' href='mailto:Monarchpaintingcompany@gmail.com'>Email Monarch</a>
+      <a className='contact-button' href='tel:1-720-900-1625'>Call Monarch</a>
     </div>
   )
 };
