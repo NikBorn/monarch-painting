@@ -1,5 +1,6 @@
 import React from 'react';
 import './Exteriors.css';
+import SlideShow from '../SlideShow/SlideShow';
 
 const Exteriors = () => {
   return (
@@ -16,6 +17,7 @@ const Exteriors = () => {
         <li>Decks</li>
         <li>Fences</li>
       </ul>
+      <SlideShow />
       <h3>Our Exterior Painting Process</h3>
       <h4>how we protect your home and create beautiful results</h4>
       <div className='process-image'>
