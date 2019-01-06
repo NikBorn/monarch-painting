@@ -40,3 +40,36 @@
 .trans-background p {
   font-size: 13px;
 }
+
+@media only screen and (min-width: 400px) {
+.home-hero-image {
+  height: 40vh;
+}
+}
+
+
+@media only screen and (min-width: 510px) {
+.home-hero-image {
+  height: 50vh;
+}
+}
+
+@media only screen and (min-width: 610px) {
+.home-hero-image {
+  height: 55vh;
+}
+}
+
+@media only screen and (min-width: 710px) {
+.home-hero-image {
+  height: 65vh;
+}
+}
+
+@media only screen and (min-width: 915px) {
+
+  .home-hero-image {
+    width: 80vw;
+    height: 85vh;
+  }
+}

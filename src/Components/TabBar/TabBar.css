@@ -5,7 +5,6 @@
   justify-content: space-evenly;
   align-items: center;
   background: #f8f8f8;
-
 }
 
 .tab {
@@ -25,4 +24,16 @@
   /* border-bottom: 2px solid #141414; */
   border-top-color: #F4832B;
   font-weight: 700;
+}
+
+@media only screen and (min-width: 715px) {
+
+  .tab-bar {
+    border-bottom: 2px solid #bbbbbb;
+}
+
+  /* .tab:hover {
+    border: 2px solid #f8f8f8;
+    border-bottom-color:#F4832B;
+  } */
 }

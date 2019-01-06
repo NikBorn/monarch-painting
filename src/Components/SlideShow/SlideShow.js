@@ -9,8 +9,9 @@ class SlideShow extends Component {
     return (
       <CarouselProvider
         naturalSlideWidth={100}
-        naturalSlideHeight={125}
+        naturalSlideHeight={100}
         totalSlides={3}
+        isPlaying={true}
       >
         <Slider className='slider'>
           <Slide id={'slide1'} index={0}></Slide>

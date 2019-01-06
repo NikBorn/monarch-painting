@@ -17,6 +17,7 @@ const Exteriors = () => {
         <li>Decks</li>
         <li>Fences</li>
       </ul>
+      <h3>Our Work</h3>
       <SlideShow />
       <h3>Our Exterior Painting Process</h3>
       <h4>how we protect your home and create beautiful results</h4>
