@@ -17,6 +17,8 @@
   height: 8vh;
   justify-content: center;
   align-items: center;
+   -webkit-transition: background-color 1s, color 1s; /* Safari */
+  transition: background-color 1s, color 1s;
 }
 
 .tab:hover {
@@ -29,11 +31,17 @@
 @media only screen and (min-width: 715px) {
 
   .tab-bar {
-    border-bottom: 2px solid #bbbbbb;
+    border-bottom: 2px solid #F4832B;
 }
+  
+  .tab {
+    color: #F4832B;
+  }
 
-  /* .tab:hover {
-    border: 2px solid #f8f8f8;
-    border-bottom-color:#F4832B;
-  } */
+  .tab:hover {
+    /* border: 2px solid #f8f8f8;
+    border-bottom-color:#F4832B; */
+    background-color: #F4832B;
+    color: #f8f8f8;
+  }
 }
