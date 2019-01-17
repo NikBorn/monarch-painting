@@ -16,6 +16,33 @@
   background-image: url('../../Images/IMG-6098.JPG');
 }
 
+#interior-slide1 {
+  background-image: url('../../Images/IMG-5811.JPG')
+}
+
+#interior-slide2 {
+  background-image: url('../../Images/IMG-5812.JPG')
+}
+
+#interior-slide3 {
+  background-image: url('../../Images/IMG-5813.JPG')
+}
+
+#interior-slide4 {
+  background-image: url('../../Images/IMG-5814.JPG')
+}
+
+#interior-slide5 {
+  background-image: url('../../Images/IMG-5815.JPG')
+}
+
+#interior-slide6 {
+  background-image: url('../../Images/IMG-5816.JPG')
+}
+
+
+
+
 .slider {
   height: 37vh;
   margin: 0 auto;

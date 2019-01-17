@@ -9,16 +9,16 @@ const SlideShow = ({ slides }) => {
     return (
       <Slide id={slideId} key={slideId} className='template-slide'></Slide>
     )
-  })
+  });
     return (
       <CarouselProvider
         naturalSlideWidth={100}
         naturalSlideHeight={100}
-        totalSlides={3}
+        totalSlides={slidesArray.length}
         isPlaying={true}
       >
         <Slider className='slider'>
-          { slidesArray}
+          { slidesArray }
         </Slider>
         <ButtonBack>Back</ButtonBack>
         <ButtonNext>Next</ButtonNext>

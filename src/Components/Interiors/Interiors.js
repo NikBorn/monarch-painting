@@ -1,7 +1,11 @@
 import React from 'react';
 import './Interiors.css';
+import SlideShow from '../SlideShow/SlideShow';
 
 const Interiors = () => {
+  const slides = ['interior-slide1', 'interior-slide2', 'interior-slide3', 'interior-slide4', 'interior-slide5', 'interior-slide6'];
+  const cabinetSlides = ['interior-slide4', 'interior-slide5', 'interior-slide6']
+
   return (
     <div className='main-container'>
       <h2>Interiors</h2>
@@ -20,6 +24,10 @@ const Interiors = () => {
         <li>Closets</li>
         <li>Basements</li>
       </ul>
+      <h3>Our interior painting exmples</h3>
+      <SlideShow slides={slides} />
+      <h3>Our Cabinet Refinish examples</h3>
+      <SlideShow slides={cabinetSlides} />
       <h3>Our Interior Painting Process</h3>
       <h4>how we protect your home and create beautiful results</h4>
     </div>
