@@ -3,9 +3,13 @@ import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from 'pure-re
 import 'pure-react-carousel/dist/react-carousel.es.css';
 import './Slideshow.css';
 
-class SlideShow extends Component {
-
-  render() {
+const SlideShow = ({ slides }) => {
+  
+  const slidesArray = slides.map((slideId)=>{
+    return (
+      <Slide id={slideId} key={slideId} className='template-slide'></Slide>
+    )
+  })
     return (
       <CarouselProvider
         naturalSlideWidth={100}
@@ -14,15 +18,13 @@ class SlideShow extends Component {
         isPlaying={true}
       >
         <Slider className='slider'>
-          <Slide id={'slide1'} index={0}></Slide>
-          <Slide id={'slide2'} index={1}></Slide>
-          <Slide id={'slide3'} index={2}></Slide>
+          { slidesArray}
         </Slider>
         <ButtonBack>Back</ButtonBack>
         <ButtonNext>Next</ButtonNext>
       </CarouselProvider>
     );
-  }
+  
 };
 
 export default SlideShow;

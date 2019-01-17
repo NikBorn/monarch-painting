@@ -3,6 +3,7 @@ import './Exteriors.css';
 import SlideShow from '../SlideShow/SlideShow';
 
 const Exteriors = () => {
+  const slides = ['exterior-slide1', 'exterior-slide2', 'exterior-slide3']
   return (
     <div className='main-container'>
       <h2>Exteriors</h2>
@@ -18,7 +19,7 @@ const Exteriors = () => {
         <li>Fences</li>
       </ul>
       <h3>Our Work</h3>
-      <SlideShow />
+      <SlideShow slides={slides} />
       <h3>Our Exterior Painting Process</h3>
       <h4>how we protect your home and create beautiful results</h4>
       <div className='process-image'>
