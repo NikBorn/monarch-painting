@@ -1,5 +1,6 @@
 import React from 'react';
-import './HomePage.css'
+import './HomePage.css';
+import Footer from '../Footer/Footer.js';
 
 const HomePage = () => {
   return (
@@ -17,6 +18,7 @@ const HomePage = () => {
       <p>
         Monarch Painting is a team of caring, passionate, service-oriented professionals. Locally owned and operated, we’re committed to making your interior painting experience easy and low-stress with our unique combination of personalized service, quality work, and streamlined process. We understand the frustration of working with interior painting contractors who fail to deliver on promises. Team up with Monarch Painting for brilliant results.
       </p>
+      <Footer />
     </div>
   )
 };

@@ -1,6 +1,7 @@
 import React from 'react';
 import './Exteriors.css';
-import SlideShow from '../SlideShow/SlideShow';
+import SlideShow from '../SlideShow/SlideShow.js';
+import Footer from '../Footer/Footer.js';
 
 const Exteriors = () => {
   const slides = ['exterior-slide1', 'exterior-slide2', 'exterior-slide3']
@@ -58,6 +59,7 @@ const Exteriors = () => {
       <p>
         Once the project is completed, before collecting final payment, a final walk around will be completed with the homeowner to make sure all necessary touch ups are done and that you are completely satisfied with your job!
       </p>
+      <Footer />
     </div>
   )
 };
