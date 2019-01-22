@@ -1,5 +1,5 @@
 .template-slide {
-  background-size: contain;
+  background-size: 100%;
   background-repeat: no-repeat;
   background-position: top;
 }
@@ -10,7 +10,7 @@
 
 #exterior-slide2 {
   background-image: url('../../Images/IMG-6099.JPG');
-}
+  background-size: cover;}
 
 #exterior-slide3 {
   background-image: url('../../Images/IMG-6098.JPG');
@@ -38,6 +38,34 @@
 
 #interior-slide6 {
   background-image: url('../../Images/IMG-5816.JPG')
+}
+
+#interior-slide7 {
+  background-image: url('../../Images/IMG-5817.JPG')
+}
+
+#interior-slide8 {
+  background-image: url('../../Images/IMG-5818.JPG')
+}
+
+#interior-slide9 {
+  background-image: url('../../Images/IMG-5819.JPG')
+}
+
+#interior-slide10 {
+  background-image: url('../../Images/IMG-5834.JPG')
+}
+
+#interior-slide11 {
+  background-image: url('../../Images/IMG-5835.JPG')
+}
+
+#interior-slide12 {
+  background-image: url('../../Images/IMG-5836.JPG')
+}
+
+#interior-slide13 {
+  background-image: url('../../Images/IMG-5837.JPG')
 }
 
 

@@ -5,7 +5,8 @@ import Footer from '../Footer/Footer.js';
 
 
 const Interiors = () => {
-  const slides = ['interior-slide1', 'interior-slide2', 'interior-slide3', 'interior-slide4', 'interior-slide5', 'interior-slide6'];
+  //'interior-slide1'
+  const slides = ['interior-slide10', 'interior-slide11', 'interior-slide12', 'interior-slide13', 'interior-slide2', 'interior-slide3', 'interior-slide7', 'interior-slide8', 'interior-slide9'];
   const cabinetSlides = ['interior-slide4', 'interior-slide5', 'interior-slide6']
 
   return (
