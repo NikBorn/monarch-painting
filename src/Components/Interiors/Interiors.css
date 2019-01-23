@@ -1,0 +1,30 @@
+.drywall-image {
+  background-image: url('../../Images/Drywall.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 25vh;
+}
+
+.interior-services-ul {
+  margin-bottom: 40px;
+}
+
+p.service-blurb {
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+
+.setup-image {
+  background-image: url('../../Images/MPCinteriorprep.jpg');
+}
+
+.paint-image {
+  background-image: url('../../Images/MPCInteriorpaintingprocess.jpeg');
+}
+
+.inspect-image {
+  background-image: url('../../Images/MPCinteriorInspection.jpg');
+  background-size: contain;
+  background-position: bottom;
+}

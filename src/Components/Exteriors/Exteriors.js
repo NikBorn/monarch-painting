@@ -29,7 +29,7 @@ const Exteriors = () => {
       <p>
         Every Monarch Painting project begins with a free home estimate. A Monarch Painting representative will come out to your home and walk through your project with you step by step, bring a color deck to help you pick colors, schedule a time to do test patches (up to 3 colors of your choosing) on your house, and set an estimated start date to paint your house! 
       </p>
-      <div className='process-image'>
+      <div className='process-image power-wash-image'>
       </div>
       <h4>Power Wash</h4>
       <p>
@@ -41,7 +41,7 @@ const Exteriors = () => {
       <p>
         In our opinion, the prep is the most important part of the job and this is where we separate ourselves from other contractors! Prepping the house well makes a huge difference in the longevity of the paint job. We will do all the necessary caulking, scraping, sanding, masking, priming, wire brushing, and puttying that needs to be done on your home to ensure that our job is a quality one and that it exceeds your expectations!  At your free home consultation one of our representatives will walk through, in detail, what we will do to prep your home.
       </p>
-      <div className='process-image'>
+      <div className='process-image paint-spryaing-image'>
       </div>
       <h4>Spraying the Siding</h4>
       <p>
